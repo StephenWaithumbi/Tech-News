@@ -33,14 +33,6 @@
       "author": ""
     },
     {
-      "id": "8279",
-      "title": "Free Decryptor Released for BitLocker-Based ShrinkLocker Ransomware Victims",
-      "body": "Romanian cybersecurity company Bitdefender has released a free decryptor to help victims recover data encrypted using the ShrinkLocker ransomware.\n\nThe decryptor is the result of a comprehensive analysis of ShrinkLocker's inner workings, allowing the researchers to discover a \"specific window of opportunity for data recovery immediately after the removal of protectors from BitLocker-encrypted disks.\"\n\nShrinkLocker was first documented in May 2024 by Kaspersky, which found the malware's use of Microsoft's native BitLocker utility for encrypting files as part of extortion attacks targeting Mexico, Indonesia, and Jordan.\n\nBitdefender, which investigated a ShrinkLocker incident targeting an unnamed healthcare company in the Middle East, said the attack likely originated from a machine belonging to a contractor, once again highlighting how threat actors are increasingly abusing trusted relationships to infiltrate the supply chain.\nIn the next stage, the threat actor moved laterally to an Active Directory domain controller by making use of legitimate credentials for a compromised account, followed by creating two scheduled tasks for activating the ransomware process.\n\nWhile the first task executed a Visual Basic Script (\"Check.vbs\") that copied the ransomware program to every domain-joined machine, the second task – scheduled for two days later — executed the locally deployed ransomware (\"Audit.vbs\").\n\nThe attack, Bitdefender said, successfully encrypted systems running Windows 10, Windows 11, Windows Server 2016, and Windows Server 2019. That said, the ShrinkLocker variant used is said to be a modified version of the original version.\n\nDescribed as simple yet effective, the ransomware stands out for the fact that it's written in VBScript, a scripting language that Microsoft said is being deprecated starting the second half of 2024. Plus, instead of implementing its own encryption algorithm, the malware weaponizes BitLocker to achieve its goals.\n\nThe script is designed to gather information about the system configuration and operating system, after which it attempts to check if BitLocker is already installed on a Windows Server machine, and if not, installs it using a PowerShell command and then performs a \"forced reboot\" using",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCjKUzpyjx8cHcNd4M9I85nbt0DWU8M8G460YctVO25SAmvwTbw6M2LVESqA1sdEJjGAsr_HxTv9rEkf795dM7hEjOLFksdRp9lvdYFp-Feqm-6jFduZy5NgiuaAV_5hSHkAnIsXdE0TyEIfD0cC_SPBvujZbUIjJDKFF4E5AvS04W1DzKf7E2AxJlRxk0/s728-rw-e365/cyberattacks.png",
-      "topic": "cyber security",
-      "author": "Joan"
-    },
-    {
       "id": "7693",
       "title": "Top Skills for Aspiring Software Engineers",
       "body": "The demand for skilled software engineers is soaring, but keeping up with the evolving landscape requires dedication to continuous learning. Whether you're starting out or looking to advance in your career, here are some must-have skills for the modern software engineer:\n\nProficiency in Programming Languages\nMastering languages like Python, JavaScript, Java, and newer ones like Rust is crucial. Each language has its strengths—Python is excellent for AI and data science, while JavaScript is essential for web development. Engineers who can code in multiple languages have an edge in today’s versatile job market.\n\nUnderstanding of Data Structures and Algorithms\nA solid understanding of data structures and algorithms forms the foundation of software engineering. Knowing how to efficiently manage data and solve problems is critical, whether you're developing mobile apps, handling databases, or designing AI models.\n\nFamiliarity with Cloud Platforms\nAs businesses move to the cloud, knowing how to work with cloud platforms like AWS, Google Cloud, and Microsoft Azure is increasingly important. Cloud skills allow engineers to develop scalable, flexible, and resilient applications.\n\nExperience with DevOps Practices\nDevOps is a key area, enabling engineers to automate and streamline workflows from development through to deployment. Skills in CI/CD, containerization with Docker, and infrastructure automation with tools like Kubernetes are invaluable.\n\nCybersecurity Awareness\nCybersecurity is no longer just for specialists; every engineer needs a basic understanding of security principles. Practices such as secure coding, encryption, and regular vulnerability assessments help build safer software.",
@@ -63,14 +55,6 @@
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj_yeTdx-R8FakIgLdvdEYs3qmJygiTF3dkQ&s",
       "topic": "software engineering",
       "author": "James"
-    },
-    {
-      "id": "45be",
-      "title": "KCB customers overdrew accounts by $7.7 million following system glitches during migration",
-      "body": "thehhuif vuihnf",
-      "image": "https://c76c7bbc41.mjedge.net/wp-content/uploads/tc/2024/11/2022-5.jpeg",
-      "topic": "cyber security",
-      "author": "Sharon"
     }
   ]
 }
