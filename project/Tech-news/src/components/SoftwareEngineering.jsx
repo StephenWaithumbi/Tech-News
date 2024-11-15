@@ -2,7 +2,7 @@ import ArticleList from "./ArticleList";
 import useFetch from "./useFetch";
 
 const SoftwareEngineering = () => {
-  const { error, isPending, data: blogs } = useFetch('http://localhost:3000/blogs');
+  const { error, isPending, data: blogs } = useFetch('https://tech-news-blog.onrender.com/blogs');
 
   // Filter blogs to include only those with the topic "ai"
   const softwareBlogs = blogs ? blogs.filter(blog => blog.topic === "software engineering") : [];

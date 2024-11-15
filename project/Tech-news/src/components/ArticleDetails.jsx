@@ -7,7 +7,7 @@ const BlogDetails = () => {
   const navigate = useNavigate();
 
   const handleDelete = () => {
-    fetch('http://localhost:3000/blogs/' + blog.id, {
+    fetch('https://tech-news-blog.onrender.com/blogs/' + blog.id, {
       method: 'DELETE'
     }).then(() => {
       navigate('/')

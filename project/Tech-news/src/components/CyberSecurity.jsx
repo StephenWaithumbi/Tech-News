@@ -2,7 +2,7 @@ import ArticleList from "./ArticleList";
 import useFetch from "./useFetch";
 
 const CyberSecurity = () => {
-  const { error, isPending, data: blogs } = useFetch('http://localhost:3000/blogs');
+  const { error, isPending, data: blogs } = useFetch('https://tech-news-blog.onrender.com/blogs');
 
   const cyberSecurity = blogs ? blogs.filter(blog => blog.topic === "cyber security") : [];
 

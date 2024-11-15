@@ -12,7 +12,7 @@ function Create(){
         e.preventDefault();
         const blog = {title, body, image, topic, author}
         
-        fetch("http://localhost:3000/blogs", {
+        fetch("https://tech-news-blog.onrender.com/blogs", {
             method: 'POST',
             headers: {"Content-Type": "application/json"},
             body: JSON.stringify(blog)
