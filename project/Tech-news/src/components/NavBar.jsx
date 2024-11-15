@@ -1,15 +1,19 @@
-function NavBar() {
-    return(
-        <nav className="navbar">
-            <h2>Tech-News</h2>
-            <div className="links">
-                <a href="/">Home</a>
-                <a href="#">New blog</a>
-            </div>
-        </nav>
-    )
+import { Link } from "react-router-dom";
 
+const Navbar = () => {
+  return (
+    <nav className="navbar">
+      <h1 >Tech News</h1>
+      <div className="links">
+        <Link to="/">Home</Link>
+        <Link to="/ai">Ai</Link>
+        <Link to="/cybersecurity">CyberSecurity</Link>        
+        <Link to="/software">Software Engineering</Link>        
+        <Link to="/create">New Post</Link>
+        
+      </div>
+    </nav>
+  );
 }
-
-export default NavBar;
-
+ 
+export default Navbar;
